@@ -1,0 +1,12 @@
+		<style>
+			div{
+				border:2px solid black;
+			}
+			i{
+				border:2px solid red;
+			}
+			span{
+				border:2px solid blue;
+			}
+
+		</style>
