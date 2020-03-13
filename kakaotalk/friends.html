@@ -12,16 +12,14 @@
     />
 		<link rel="stylesheet" href="css/styles.css" />
 		<title>Friends | Kakao Clone</title>
-		<style>
 
-		</style>
 	</head>
 	<body>
 		<div class="status-bar">
-			<div class="status-bar__columm">
+			<div class="status-bar__column">
 				<span class="status-bar__clock">13:54</span>
 			</div>
-			<div class="status-bar__columm">
+			<div class="status-bar__column">
 				<i class="fas fa-clock"></i>
 				<i class="fas fa-volume-mute"></i>
 				<i class="fas fa-wifi"></i>
@@ -29,6 +27,41 @@
 				<i class="fas fa-battery-full"></i>
 			</div>
 		</div>
+		<header class="header">
+			<div class="heder__header-column">
+				<h1 class="header__title">Friends</h1>
+			</div>
+			<div class="heder__header-column">
+				<i class="fas fa-search"></i>
+				<i class="fas fa-cog"></i>
+			</div>
+		</header>
+		<main class="friends">
+		<header class="friends__header">
+			<div class="friends__friend friend">
+				<div class="friend__column">
+					<img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+					<div class="friend__content">
+						<span class="friend__name">Heewon</span>
+						<span class="friend__status">fuckyou</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Plus Friend
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>	
+		</main>
 	</body>
 
 </html>
